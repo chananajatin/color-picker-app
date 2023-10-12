@@ -1,6 +1,6 @@
 const container = document.querySelector(".container");
 const refreshBtn = document.querySelector(".refresh-btn");
-const maxBox = 16;
+const maxBox = 32;
 const generatepalette = () => {
     container.innerHTML = " ";
   for (let i = 0; i < maxBox; i++) {
